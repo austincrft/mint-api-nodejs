@@ -1,0 +1,26 @@
+{
+  "name": "mint-helper",
+  "version": "1.0.0",
+  "description": "Mint Help Scripts",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel-node lib/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.34.0",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
